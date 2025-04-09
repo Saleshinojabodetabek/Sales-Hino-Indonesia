@@ -1,0 +1,71 @@
+/* Footer */
+footer {
+  background-color: #84c225;
+  text-align: center;
+  padding: 1.5rem 0;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 17px;
+}
+
+/* Social Media Icons */
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* Jarak antar ikon */
+  margin: 2px 0;
+}
+
+.socials a {
+  color: #000000;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease-in-out;
+  text-decoration: none; /* Menghilangkan underline */
+  border: none; /* Menghapus border jika ada */
+  outline: none;
+}
+
+.socials a:hover {
+  color: #ffffff; /* Warna hover */
+}
+
+/* Slogan */
+footer .slogan {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 1px;
+  margin: 3px 0;
+  color: #000000;
+}
+
+/* Credit Footer */
+footer .credit {
+  font-size: 0.8rem;
+  color: #000000;
+  margin-top: 3px;
+  padding-bottom: 10px;
+}
+
+/* Responsiveness */
+@media (max-width: 600px) {
+  .socials {
+    gap: 10px; /* Kurangi jarak antar ikon untuk layar kecil */
+  }
+
+  .socials a {
+    font-size: 1.5rem; /* Perkecil ukuran ikon */
+  }
+
+  footer .slogan {
+    font-size: 16px; /* Sesuaikan ukuran font untuk layar kecil */
+  }
+}

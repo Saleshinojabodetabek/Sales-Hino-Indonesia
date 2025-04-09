@@ -1,0 +1,44 @@
+.vm-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  font-family: Arial, sans-serif;
+}
+
+.vm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.vm-header{
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.vm-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+}
+
+.vm-body li{
+  padding: 8px 0;
+}
+
+@media(max-width: 780px){
+  .vm-container{
+    flex-direction: column;
+    gap: 40px;
+  }
+}

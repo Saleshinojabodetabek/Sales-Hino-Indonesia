@@ -1,0 +1,47 @@
+/* Hero Section */
+.splide {
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.splide__slide img {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero_company {
+  min-height: 25vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../img/company-profile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero_vision {
+  min-height: 25vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../img/vision-mission.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero_contact {
+  min-height: 25vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../img/contact\ us.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
