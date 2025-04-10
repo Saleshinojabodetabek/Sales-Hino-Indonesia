@@ -26,7 +26,6 @@ a:focus,
 a:visited {
   text-decoration: none;
   outline: 0;
-  background-color: transparent;
   color: black;
 }
 
