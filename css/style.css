@@ -200,6 +200,7 @@ a:visited {
   width: 100%;
   gap: 20px;
   flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .testimony-container {

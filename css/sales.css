@@ -1,0 +1,109 @@
+.sales-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to bottom right, #ccfbc8, #fff);
+  padding: 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+.sales-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  opacity: 0.1;
+  z-index: 0;
+}
+
+.sales-content {
+  max-width: 50%;
+  z-index: 1;
+}
+
+.sales-content h1 {
+  color: #2b3553;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.sales-content a {
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.sales-content ul {
+  list-style: none;
+  padding: 0;
+  color: #2b3553;
+}
+
+.sales-content ul li {
+  margin-bottom: 10px;
+}
+
+.sales-content ul li::before {
+  content: "\2713";
+  color: #3366ff;
+  margin-right: 10px;
+}
+
+.whatsapp-button {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #25d366;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.sales-image {
+  max-width: 50%;
+  z-index: 1;
+}
+
+.sales-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .sales-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .sales-content,
+  .sales-image {
+    max-width: 100%;
+  }
+}
+
+.sales-link {
+  display: inline-block;
+  margin: 10px 0 20px 0;
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sales-link:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+.sales-support-text {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #2b3553;
+  font-weight: 500;
+}
